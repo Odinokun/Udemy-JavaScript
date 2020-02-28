@@ -24,7 +24,7 @@ document.body.style.backgroundImage = 'url(../img/apple_true.jpg)';
 title.innerText = 'Мы продаем только подлинную технику Apple';
 
 //удаляем рекламу
-adv.parentNode.removeChild(adv);
+adv.remove();
 
 //задаем вопрос
 answer.innerText = question;
